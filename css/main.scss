@@ -297,7 +297,7 @@ body {
 }
 
 .popup__item {
-    box-sizing: content-box;
+    box-sizing: border-box;
     display: grid;
     justify-items: center;
     justify-content: space-around;
@@ -306,6 +306,7 @@ body {
     padding: 2px;
     width: 60px;
     height: 60px;
+    border: 1px solid transparent;
 }
 
 .popup__item-icon {
@@ -314,8 +315,8 @@ body {
     fill: $text-color;
 
     &:hover {
-        width: 35px;
-        height: 35px;
+        width: 34px;
+        height: 34px;
         fill: $hover-color;
     }
 
@@ -332,7 +333,7 @@ body {
 }
 
 .popup__item-more-button {
-    box-sizing: content-box;
+    box-sizing: border-box;
     display: grid;
     justify-items: center;
     justify-content: space-around;
@@ -344,7 +345,7 @@ body {
     position: relative;
     grid-column: 2 / 3;
     grid-row: 5;
-    content: "some content";
+    border: 1px solid transparent;
 
     &:focus-within {
         border: 1px solid #033142;
@@ -356,8 +357,8 @@ body {
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 12px;
-    top: 15px;
+    left: 9px;
+    top: 13px;
 }
 
 .popup__item-last {
@@ -375,7 +376,7 @@ body {
 
     &:hover {
         color: $hover-color;
-        font-size: 1.18rem;
+        font-size: 1.16rem;
     }
 
     &:active {
@@ -404,4 +405,3 @@ body {
     overflow: auto;
     height: 800px;
 }
-
