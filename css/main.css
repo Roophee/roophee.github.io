@@ -559,7 +559,6 @@ body {
 .nav__button--focus:focus-within > .popup__button-svg {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  position: absolute;
   width: 30px;
   height: 30px;
   padding: 3px;
@@ -760,7 +759,15 @@ body {
   width: 40px;
   height: 40px;
   left: 9px;
-  top: 13px;
+  top: 12px;
+}
+
+.popup__item-icon--more-button:hover {
+  left: 12px;
+}
+
+.popup__item-icon--more-button:active {
+  left: 17px;
 }
 
 .popup__item-last {
