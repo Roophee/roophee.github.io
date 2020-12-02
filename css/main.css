@@ -627,6 +627,7 @@ body {
   background-color: #4e98b4;
   border: 1px solid #033142;
   overflow-y: scroll;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
@@ -635,7 +636,7 @@ body {
   display: none;
   z-index: 11;
   position: absolute;
-  width: 230px;
+  width: 236px;
   height: 150px;
   top: 25px;
 }
